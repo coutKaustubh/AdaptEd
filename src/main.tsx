@@ -15,6 +15,7 @@ const initialConcepts: Concept[] = [
   {name:'Word problems',score:0,confidence:'Not enough evidence',state:'new',detail:'Unlocks after equations',color:'slate'},
 ]
 
+//done
 const questions = [
   {q:'Expand: −2(x + 3)', concept:'Distributive property', options:['−2x + 3','−2x − 6','2x − 6','−2x + 6'], answer:1, explanation:'The multiplier −2 applies to every term inside the bracket: −2 × x and −2 × 3.'},
   {q:'Solve: 2x + 5 = 13', concept:'Two-step equations', options:['x = 4','x = 8','x = 9','x = 3'], answer:0, explanation:'Undo +5 first, then divide 8 by 2. x = 4.'},
